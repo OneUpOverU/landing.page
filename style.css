@@ -3,6 +3,7 @@ body{
     display: flex;
     border: solid purple;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 a {
@@ -28,9 +29,9 @@ p {
 
 img {
     max-height: 200px;
-    display: flex;
+    width: 250px;
+    height: 250px;
     
-
 }
 
 button {
@@ -82,4 +83,24 @@ button {
 
 .left {font-size: 24px;
        color: #F9FAF8;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    
+    
+}
+
+
+.mid {
+    display: flex;
+    justify-content: center;
 }
