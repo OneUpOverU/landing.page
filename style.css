@@ -1,7 +1,6 @@
 body{
     min-height: 100vh;
     display: flex;
-    border: solid purple;
     justify-content: center;
     flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
